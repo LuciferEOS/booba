@@ -9,7 +9,7 @@ namespace Content.Trauma.Server.Heretic.Components;
 public sealed partial class HereticRuleComponent : Component
 {
     [DataField]
-    public int RealityShiftPerHeretic = 1;
+    public int RealityShiftPerHeretic = 3; // SISI edit - 1 -> 3
 
     public readonly List<EntityUid> Minds = new();
 
